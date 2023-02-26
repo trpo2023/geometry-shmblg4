@@ -106,5 +106,12 @@ int main()
     if (status == 0)
         return 1;
 
+    geom = fopen("geom.txt", "r");
+    while (fgets(arr, N, geom) != NULL) {
+        printf("%s", arr);
+    }
+
+    fclose(geom);
+
     return 0;
 }
