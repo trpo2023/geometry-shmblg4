@@ -97,6 +97,10 @@ int main()
     int line = 1;
     int status = 1;
     geom = fopen("geom.txt", "r");
+    if (geom == NULL) {
+        printf("Expected geom.txt\n");
+        return 1;
+    }
     while (fgets(arr, N, geom) != NULL) {
         ErCheck(arr, line, &status);
         line++;
