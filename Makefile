@@ -1,9 +1,7 @@
-all: hello geom
-hello: helloworld.cpp
-	g++ -Wall -Werror -o hello helloworld.cpp
+all: geom
+
 geom: GeomApp.cpp
 	g++ -Wall -Werror -o geom GeomApp.cpp 
-rmgeom:
+
+clean:
 	rm geom
-rmhello:
-	rm hello
