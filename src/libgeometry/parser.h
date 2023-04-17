@@ -1,11 +1,12 @@
+#pragma once
+
 #include <cmath>
 #include <string>
 
 typedef struct Circle {
-    float x;
-    float y;
-    float r;
+    float x = 0;
+    float y = 0;
+    float r = 0;
 } circle;
 
-void Get_Info(string temp, float *x, float *y, float *r)
-
+void Get_Info(std::string temp, float* x, float* y, float* r);
