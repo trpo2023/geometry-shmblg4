@@ -4,7 +4,7 @@ on: push
 
 jobs:
   build:
-    runs-on: Ubuntu 22.04.2 LTS
+    runs-on: Ubuntu 22.04 LTS
 
     steps:
       - uses: actions/checkout@v2
