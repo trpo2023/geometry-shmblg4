@@ -4,7 +4,7 @@ on: push
 
 jobs:
   build:
-    runs-on: Ubuntu 22.04 LTS
+    runs-on: ubuntu-20.04
 
     steps:
       - uses: actions/checkout@v2
@@ -13,4 +13,4 @@ jobs:
         run: git ls-files *.{c,h} | xargs clang-format -i --verbose && git diff --exit-code
 
       - name: Build application
-        run: makes
+        run: make
