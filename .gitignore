@@ -1,3 +1,7 @@
 *.txt
 geom
 !geom.txt
+geometry
+testing
+*.o
+*.a
