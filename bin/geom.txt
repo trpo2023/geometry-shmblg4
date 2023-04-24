@@ -1,0 +1,5 @@
+circle(2 1, 2)
+circle(3 1, 1)
+cirCle(2 1, 2)
+circle(1 2, 3)
+Circle(3 1, 4)

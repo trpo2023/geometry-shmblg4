@@ -1,0 +1,5 @@
+circle(0 0.1, 2)
+circle(1 2, 1)
+cirCle(2 4.6, 2)
+circle(0 2, 3)
+Circle(3.5 5, 4)
